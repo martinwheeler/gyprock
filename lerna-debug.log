@@ -1,0 +1,63 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ], args: [] }
+2 verbose rootPath /Users/martin/code/gyprock
+3 info version 2.4.0
+4 info versioning independent
+5 silly existsSync /Users/martin/code/gyprock/VERSION
+6 silly initialize attempt
+7 silly npmConfig { registry: 'https://registry.npmjs.org',
+7 silly npmConfig   npmClient: 'yarn',
+7 silly npmConfig   npmClientArgs: undefined,
+7 silly npmConfig   mutex: 'network:42424' }
+8 silly initialize success
+9 silly execute attempt
+10 info Bootstrapping 1 packages
+11 silly installInDirOriginalPackageJson /Users/martin/code/gyprock
+12 silly getExecOpts { cwd: '/Users/martin/code/gyprock',
+12 silly getExecOpts   env:
+12 silly getExecOpts    { TERM_SESSION_ID: 'w0t0p0:8241D830-51A7-491E-8DAB-09623D8C37CB',
+12 silly getExecOpts      SSH_AUTH_SOCK: '/var/folders/fz/w0gz08h534l08trrmldqt2900000gn/T//ssh-GgV5dGhvUQiv/agent.2450',
+12 silly getExecOpts      Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.y1GUri4aOh/Render',
+12 silly getExecOpts      COLORFGBG: '15;0',
+12 silly getExecOpts      ITERM_PROFILE: 'Default',
+12 silly getExecOpts      XPC_FLAGS: '0x0',
+12 silly getExecOpts      LANG: 'en_AU.UTF-8',
+12 silly getExecOpts      PWD: '/Users/martin/code/gyprock',
+12 silly getExecOpts      SHELL: '/bin/zsh',
+12 silly getExecOpts      SECURITYSESSIONID: '186a6',
+12 silly getExecOpts      TERM_PROGRAM_VERSION: '3.1.4',
+12 silly getExecOpts      TERM_PROGRAM: 'iTerm.app',
+12 silly getExecOpts      PATH: '/usr/local/opt/php71/bin:/Users/martin/.composer/vendor/bin:/Users/martin/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/martin/code/k8tie/bin:/Users/martin/go/bin',
+12 silly getExecOpts      COLORTERM: 'truecolor',
+12 silly getExecOpts      TERM: 'xterm-256color',
+12 silly getExecOpts      HOME: '/Users/martin',
+12 silly getExecOpts      TMPDIR: '/var/folders/fz/w0gz08h534l08trrmldqt2900000gn/T/',
+12 silly getExecOpts      USER: 'martin',
+12 silly getExecOpts      XPC_SERVICE_NAME: '0',
+12 silly getExecOpts      LOGNAME: 'martin',
+12 silly getExecOpts      __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0xF',
+12 silly getExecOpts      ITERM_SESSION_ID: 'w0t0p0:8241D830-51A7-491E-8DAB-09623D8C37CB',
+12 silly getExecOpts      SHLVL: '1',
+12 silly getExecOpts      OLDPWD: '/Users/martin/code/gyprock/components',
+12 silly getExecOpts      ZSH: '/Users/martin/.oh-my-zsh',
+12 silly getExecOpts      USE_CCACHE: '1',
+12 silly getExecOpts      CCACHE_COMPRESS: '1',
+12 silly getExecOpts      ANDROID_JACK_VM_ARGS: '-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G',
+12 silly getExecOpts      GOPATH: '/Users/martin/go',
+12 silly getExecOpts      PAGER: 'less',
+12 silly getExecOpts      LESS: '-R',
+12 silly getExecOpts      LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+12 silly getExecOpts      SSH_AGENT_PID: '2452',
+12 silly getExecOpts      _: '/usr/local/bin/lerna',
+12 silly getExecOpts      npm_config_registry: 'https://registry.npmjs.org' } }
+13 silly installInDir [ 'yarn',
+13 silly installInDir   [ 'install', '--mutex', 'network:42424', '--non-interactive' ] ]
+14 error execute callback with error
+15 error Error: Command failed: yarn install --mutex network:42424 --non-interactive
+15 error error Workspaces can only be enabled in private projects
+15 error yarn install v1.1.0
+15 error info No lockfile found.
+15 error info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+15 error
+15 error     at Promise.all.then.arr (/Users/martin/.config/yarn/global/node_modules/lerna/node_modules/execa/index.js:236:11)
+15 error     at <anonymous>

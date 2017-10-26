@@ -1,0 +1,18 @@
+{
+  "name": "@gyprock/form",
+  "version": "0.0.1",
+  "description": "A redux form wrapper component.",
+  "main": "src/index.js",
+  "repository": "",
+  "author": "theshinytuxedo <hello@martinwheeler.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "core-decorators": "^0.20.0",
+    "react-redux": "^5.0.6",
+    "redux-form": "^7.1.2",
+    "styled-components": "^2.2.2"
+  }
+}

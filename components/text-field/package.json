@@ -1,0 +1,15 @@
+{
+  "name": "@gyprock/text-field",
+  "version": "0.0.1",
+  "description": "A text field component used within @gyprock/form.",
+  "main": "src/index.js",
+  "repository": "",
+  "author": "theshinytuxedo <hello@martinwheeler.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "styled-components": "^2.2.2"
+  }
+}

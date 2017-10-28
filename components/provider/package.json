@@ -1,0 +1,18 @@
+{
+  "name": "@gyprock/provider",
+  "version": "0.0.1",
+  "description": "A redux Provider HoC component.",
+  "main": "src/index.js",
+  "repository": "",
+  "author": "theshinytuxedo <hello@martinwheeler.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "core-decorators": "^0.20.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2"
+  }
+}
